@@ -275,7 +275,6 @@ st.set_page_config(
 )
 
 st.title("Reel Hook & Caption Generator")
-st.caption("Sacred Love Initiation with Kate Joyner")
 
 missing_keys = check_api_keys()
 if missing_keys:
