@@ -210,20 +210,47 @@ def check_api_keys() -> list[str]:
     return missing
 
 
+WHISPER_LIMIT_BYTES = 25 * 1024 * 1024
+
+
+def extract_audio(video_path: str, audio_path: str) -> bool:
+    """Extract audio from video as mono 16kHz mp3 using ffmpeg. Returns True on success."""
+    import subprocess
+    result = subprocess.run(
+        ["ffmpeg", "-i", video_path, "-vn", "-acodec", "mp3", "-ar", "16000", "-ac", "1", "-q:a", "4", "-y", audio_path],
+        capture_output=True,
+    )
+    return result.returncode == 0
+
+
 def transcribe_file(file_bytes: bytes, filename: str) -> str:
     client = openai.OpenAI(api_key=get_secret("OPENAI_API_KEY"))
     suffix = Path(filename).suffix or ".mp4"
-    tmp_path = None
+    video_path = None
+    audio_path = None
     try:
         with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as tmp:
             tmp.write(file_bytes)
-            tmp_path = tmp.name
-        with open(tmp_path, "rb") as f:
+            video_path = tmp.name
+
+        # If file is over Whisper's limit, extract audio first (much smaller)
+        if len(file_bytes) > WHISPER_LIMIT_BYTES:
+            with tempfile.NamedTemporaryFile(suffix=".mp3", delete=False) as atmp:
+                audio_path = atmp.name
+            if not extract_audio(video_path, audio_path):
+                raise RuntimeError("Audio extraction failed. Try the manual transcript field instead.")
+            transcribe_path = audio_path
+        else:
+            transcribe_path = video_path
+
+        with open(transcribe_path, "rb") as f:
             result = client.audio.transcriptions.create(model="whisper-1", file=f)
         return result.text
     finally:
-        if tmp_path and os.path.exists(tmp_path):
-            os.unlink(tmp_path)
+        if video_path and os.path.exists(video_path):
+            os.unlink(video_path)
+        if audio_path and os.path.exists(audio_path):
+            os.unlink(audio_path)
 
 
 def generate_hook_caption(transcript: str, offering: str = "") -> str:
@@ -289,7 +316,7 @@ with col1:
     uploaded_file = st.file_uploader(
         "Upload reel video or audio",
         type=["mp4", "m4a", "mp3", "wav", "webm", "mpeg", "mpga"],
-        help="Max 25MB. Supported: mp4, m4a, mp3, wav, webm.",
+        help="Supported formats: mp4, m4a, mp3, wav, webm.",
     )
 
 with col2:
@@ -317,13 +344,6 @@ if generate_btn:
 
     if uploaded_file:
         file_bytes = uploaded_file.getvalue()
-        size_mb = len(file_bytes) / (1024 * 1024)
-        if size_mb > 25:
-            st.error(
-                f"File is {size_mb:.1f}MB. Whisper API limit is 25MB. "
-                "Compress the video first, or paste the transcript manually."
-            )
-            st.stop()
         with st.spinner("Transcribing..."):
             try:
                 transcript = transcribe_file(file_bytes, uploaded_file.name)
