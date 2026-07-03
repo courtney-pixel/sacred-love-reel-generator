@@ -384,4 +384,4 @@ if generate_btn:
     st.subheader("Hook")
     st.code(hook, language=None)
     st.subheader("Caption")
-    st.code(caption, language=None)
+    st.text_area("caption_output", value=caption, height=300, label_visibility="collapsed")
