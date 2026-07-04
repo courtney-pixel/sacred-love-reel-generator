@@ -98,7 +98,7 @@ Use these words and phrases naturally: Sacred Love, Sacred Union, Sacred Lovers,
 
 ## Hook Rules
 
-Output: one line, Title Case (every word capitalised), 5-12 words maximum.
+Output: one line, Title Case (every word capitalised), 5-8 words maximum. Shorter is better.
 
 Psychology:
 - Create curiosity. Do not complete the thought in the hook.
@@ -118,7 +118,7 @@ Types that perform best:
 
 ## Caption Rules
 
-- 3-5 short paragraphs. Let them breathe.
+- 1-2 short paragraphs maximum. Tight and punchy.
 - Flow naturally from the hook. Do not repeat it.
 - No staccato fragments. Use ellipsis (...) for trailing thoughts instead.
 - Weave in the offering naturally as extension of the message. Not a tonal shift.
