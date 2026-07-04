@@ -95,6 +95,7 @@ Use these words and phrases naturally: Sacred Love, Sacred Union, Sacred Lovers,
 - No bullet-point feature lists for programmes. Convey the felt experience instead.
 - Never blame one gender
 - No "This isn't about X. This is about Y." pattern. Reads as AI/sales copy.
+- No lists of three. Never write "X, Y, and Z" as a triplet. This is the most recognisable AI writing pattern and kills the voice instantly. Vary sentence length and structure so no two sentences feel the same.
 
 ## Hook Rules
 
