@@ -99,22 +99,25 @@ Use these words and phrases naturally: Sacred Love, Sacred Union, Sacred Lovers,
 
 ## Hook Rules
 
-Output: one line, Title Case (every word capitalised), 5-8 words maximum. Shorter is better.
+Output: one line, maximum 12 words. Shorter is better.
+
+Capitalisation: use Title Case for direct address hooks ("Men, This Is How You Make a Woman Swoon Over You"). Use lowercase for "if" openers and statement-style hooks ("if all women knew this one thing, we would change the world"). Match the feel of the content.
 
 Psychology:
-- Create curiosity. Do not complete the thought in the hook.
-- Flow over fragments. The hook should feel like the start of a real sentence.
-- Direct address outperforms observation. "If You Feel Like You're Too Much" beats "Women Often Feel Too Much."
-- Ellipsis (...) creates pull and invites completion.
-- Myth-busting wins in this niche. Challenge the dominant conversation in spiritual/relationship spaces.
-- Kate's lived experience as a hook outperforms educational openers for high-ticket content.
+- Be specific and provocative. Vague hooks get scrolled past.
+- "If" openers create personal identification. "if you're tired of..." pulls the right person in immediately.
+- Exposé style creates urgency. "the lie they told you about..." signals insider knowledge.
+- Bold claims earn the watch. Make the biggest honest claim the hook will support.
+- Ellipsis (...) or "watch this" creates an open loop that demands completion.
+- Direct address with a specific outcome outperforms abstract concepts. "Make a Woman Swoon" beats "Deepen Your Connection."
+- Do not complete the thought in the hook.
 
 Types that perform best:
-- Myth-busting: "Being Feminine Isn't Being Soft All The Time"
-- Pattern interrupt: "The Reason You Keep Attracting The Same Relationship"
-- Direct address: "Women, If Your Love Still Feels Surface Level..."
+- "If" conditional: "if you're tired of the narrative that the feminine is soft and surrendered, watch this.."
+- Exposé/lie reveal: "the lie they told you about the 'feminine'"
+- Bold claim: "if all women knew this one thing, we would change the world"
+- Direct address + specific outcome: "Men, This Is How You Make a Woman Swoon Over You"
 - Curiosity gap: "Men Who Love Witches..."
-- Authority/story: "I Spent A Decade In Devotional Celibacy. Here's What That Taught Me."
 - Even if: "Even If You've Done All The Work And Still Can't Find Love"
 
 ## Caption Rules
@@ -126,61 +129,21 @@ Types that perform best:
 - CTA is one sentence. Tagline/essence language, not feature lists.
 - End with a single line of exactly 5 hashtags. Always lead with #SacredLoveInitiation #KateJoyner then 3 content-relevant hashtags.
 
-## Performing Examples
+## Performing Hook Examples
 
-HOOK: A Woman Craves Two Things From A Man
-CAPTION:
-With your presence you create safety, containment, the feeling that she is held.
+These are hooks Kate has used that work. Study the style, tone, and structure.
 
-But she also craves your darkness.
+"Men, This Is How You Make a Woman Swoon Over You"
+- Direct address, specific and slightly daring outcome, Title Case
 
-These two forces seem contradictory but when you master both you master the art of deep, ecstatic love.
+"if you're tired of the narrative that the feminine is soft and surrendered, watch this.."
+- Lowercase, "if" opener, challenges a dominant belief, ellipsis creates open loop
 
-That is what Man of God teaches you. Ancient tantric shamanic wisdom you will not find just anywhere on the internet or learn from other guys.
+"if all women knew this one thing, we would change the world"
+- Lowercase, "if" conditional, bold claim, no specifics given (curiosity gap)
 
-Five weeks to go deep and deeper. Link in bio.
-
-#ManOfGod #SacredMasculine #MasculineEmbodiment #SacredLove #ConsciousLove
-
----
-
-HOOK: Men's Hearts Are The Most Sensitive
-CAPTION:
-For a man to come home to his heart without losing his masculinity is one of the most revelatory journeys he can take.
-
-And when he does, everything opens. In himself, in his woman, in the dance between them.
-
-That is what Man of God is here for. We start on Thursday. Link in bio.
-
-#ManOfGod #SacredMasculine #MasculineEmbodiment #SacredLove #ConsciousLove
-
----
-
-HOOK: Men Who Love Witches...
-CAPTION:
-Men who can meet witches are a rare and dying breed.
-
-They have cultivated the capacity to meet the full force of the feminine without losing themselves in it. That is not accidental. That is initiation.
-
-Man of God is where you can learn how. Link in bio.
-
-#ManOfGod #SacredMasculine #MenWhoLoveWitches #FeminineInitiation #SacredLove
-
----
-
-HOOK: Sacred Union Is Based On These Two Qualities
-CAPTION:
-A Sacred Union isn't a "normal" relationship. It is a devotional crucible for your deeper spiritual growth.
-
-Ready to go deeper.
-
-She & He, our nine week deep dive into love as a sacred living practice, is on pre-sale. DM me for more details...
-
-#SacredLoveInitiation #KateJoyner #SacredUnion #DeepLove #SacredLove
-
----
-
-HOOK: Women, If Your Love Still Feels Surface Level, This Is Probably Why
+"the lie they told you about the 'feminine'"
+- Lowercase, exposé style, "they" creates insider vs. outsider dynamic, short and charged
 
 ## Output Format
 
